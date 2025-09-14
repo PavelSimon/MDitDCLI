@@ -54,17 +54,17 @@ This CLI app takes an input file as an argument and outputs a Markdown file with
 Once implemented:
 
 ```bash
-python main.py input_file.txt
+uv run main.py input_file.txt
 # Outputs: input_file.md
 ```
 
 ## Installation
 
 ```bash
-pip install -e .
+uv sync
 ```
 
 ## Dependencies
 
-- Python >= 3.14
+- Python >= 3.13
 - markitdown
