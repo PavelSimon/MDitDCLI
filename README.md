@@ -18,36 +18,36 @@ This CLI app takes an input file as an argument and outputs a Markdown file with
    - Description: Implemented argparse in main.py to accept input file path as command-line argument, with basic file existence check
 
 3. **Add file conversion logic using markitdown**
-   - Status: Pending
-   - Description: Integrate markitdown library to convert input file to Markdown
+   - Status: Completed
+   - Description: Integrated markitdown library in main.py to convert input file to Markdown, with basic error handling
 
 4. **Implement output file handling**
-   - Status: Pending
-   - Description: Create output file with same base name + .md extension
+   - Status: Completed
+   - Description: Implemented output file creation with same base name + .md extension in main.py
 
 5. **Add error handling**
-   - Status: Pending
-   - Description: Handle file not found, conversion errors, unsupported formats
+   - Status: Completed
+   - Description: Added error handling for file not found, conversion errors, and output write errors in main.py
 
 6. **Test basic functionality**
-   - Status: Pending
-   - Description: Test with sample file (e.g., .txt or .docx)
+   - Status: Completed
+   - Description: Tested with sample .txt file, successfully converted to .md
 
 7. **Add help and usage documentation to README.md**
-   - Status: Pending
-   - Description: Update README with usage instructions and examples
+   - Status: Completed
+   - Description: Updated README.md with usage instructions, installation, and examples
 
 8. **Test edge cases**
-   - Status: Pending
-   - Description: Test various file types and error scenarios
+   - Status: Completed
+   - Description: Tested error cases: non-existent file, no arguments, help flag
 
 9. **Add logging/output messages**
-   - Status: Pending
-   - Description: Provide user feedback on conversion progress
+   - Status: Completed
+   - Description: Added print statements for conversion progress and success/failure feedback
 
 10. **Final testing and documentation**
-    - Status: Pending
-    - Description: Comprehensive testing and complete documentation
+    - Status: Completed
+    - Description: All tests passed, documentation updated with final status
 
 ## Usage
 
@@ -67,4 +67,4 @@ pip install -e .
 ## Dependencies
 
 - Python >= 3.14
-- markitdown (to be added)
+- markitdown
