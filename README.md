@@ -14,8 +14,8 @@ This CLI app takes an input file as an argument and outputs a Markdown file with
    - Description: Added the `markitdown` package to project dependencies in pyproject.toml
 
 2. **Implement CLI argument parsing in main.py**
-   - Status: Pending
-   - Description: Use argparse to accept input file path as command-line argument
+   - Status: Completed
+   - Description: Implemented argparse in main.py to accept input file path as command-line argument, with basic file existence check
 
 3. **Add file conversion logic using markitdown**
    - Status: Pending
